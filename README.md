@@ -32,4 +32,4 @@ The model fitting function `upload_lms.py` groups `lm_fit_vw.sql` data by make a
 
 ## User dashboard
 
-The scheduled query `hot_deals_dashboard_vw.sql` selects the most recent 45 days of listings from processed listings, joining them with the **lm_lookup_table** and the **state_lookup_table**. Coefficients from the **lm_lookup_table** are used with appropriate listing fields to calculate expected price. The [dashboard](https://lookerstudio.google.com/reporting/15724f59-7692-4920-95ac-a2c8f76029eb/page/jUEsD) connects to this scheduled query's output which runs daily.
+The scheduled query `hot_deals_dashboard_vw.sql` selects the most recent 45 days of listings from processed listings, joining them with the **lm_lookup_table** and the **state_lookup_table**. Coefficients from the **lm_lookup_table** are used with appropriate listing fields to calculate expected price. The [dashboard](https://lookerstudio.google.com/reporting/15724f59-7692-4920-95ac-a2c8f76029eb/page/jUEsD) connects to this scheduled query's output which runs daily. Be wary of scams and incorrectly entered data!
