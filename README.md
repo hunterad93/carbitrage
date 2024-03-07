@@ -8,7 +8,7 @@ A private repo contains the full codebase, this repo contains the python code an
 ## Scraping Pipeline Structure
 
 ### Listing URL gathering
-The first python cron job `get_links.py` operates by scraping Craigslist car and auto search pages for each craigslist subdomain (e.g.https://missoula.craigslist.org/search/cta#search=1~gallery~0~0), iterating through the pages of search results gathering all car listing urls for each subdomain. These urls are stored in a GBQ table - **links_need_harvesting**.
+The first python cron job `get_links.py` operates by scraping Craigslist car and auto search pages for each craigslist subdomain (e.g./missoula.craigslist.org/search/cta#search=1~gallery~0~0), iterating through the pages of search results gathering all car listing urls for each subdomain. These urls are stored in a GBQ table - **links_need_harvesting**.
 
 ### Listing html scraping
 The second cron job `harvest_pages.py` uses a query to select the set of URLS to be scraped from the url table and scrapes the raw html page source from each, storing html pages in **raw_listing_pages**.
