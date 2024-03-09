@@ -1,5 +1,10 @@
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=c0oT2hzpGXo">
+    <img src="https://img.youtube.com/vi/c0oT2hzpGXo/0.jpg" alt="Carbitrage Overview">
+  </a>
+</div>
+
 # carbitrage
-[![Carbitrage Overview](https://img.youtube.com/vi/c0oT2hzpGXo/0.jpg)](https://www.youtube.com/watch?v=c0oT2hzpGXo)
 
 This repo contains *some* of the code for the 'carbitrage' project, which scrapes used car listing pages from Craigslist and transforms the raw listings into a table of useful data including expected prices generated through an linear model. The data for the last 45 days of listings can be viewed in a Looker dashboard [here](https://lookerstudio.google.com/reporting/15724f59-7692-4920-95ac-a2c8f76029eb/page/jUEsD).
 
